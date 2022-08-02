@@ -12,4 +12,12 @@ First give access to `encode` script by executing `chmod u+x encode`. Then execu
 > encode [inputFile] [outputFile]
 ```
 
-> outputFile argument is optional. The default output filename is inputFile_encoded.js
+> `outputFile` argument is optional. The default output filename is `\[inputFile\]_encoded.js`
+
+### Windows
+
+```
+> node encoder.js [inputFile] [outputFile]
+```
+
+> `outputFile` argument is optional. The default output filename is `\[inputFile\]_encoded.js`
