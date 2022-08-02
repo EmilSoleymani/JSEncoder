@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ $# -gt 1 ]
+then
+    node encoder.js $1 $2
+elif [ $# -eq 1 ]
+then
+    node encoder.js $1
+else
+    echo "Error: Invalid number of arguments"
+fi
